@@ -1,0 +1,45 @@
+@require '../_vars'
+
+flex-mixin()
+  // flex: 0 1 auto // this is the default
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: start
+
+  &&--grow
+    flex-grow: 1
+
+  &&--column
+    flex-direction: column
+
+  &&--justify-center
+    justify-content: center
+
+  &&--justify-end
+    justify-content: flex-end
+
+  &&--justify-space-around
+    justify-content: space-around
+
+  &&--justify-space-between
+    justify-content: space-between
+
+  &&--justify-space-evenly
+    justify-content: space-around // For none supported browser
+    justify-content: space-evenly
+
+  &&--justify-space-evenly _:-ms-lang(x), &&--justify-space-evenly
+    justify-content: space-around // Edge only fix
+
+  &&--align-center
+    align-items: center
+
+  &&--align-end
+    align-items: flex-end
+
+  &&--align-stretch
+    align-items: stretch
+
+.fk-flex
+  flex-mixin()

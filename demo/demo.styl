@@ -1,0 +1,132 @@
+body
+  font-size 12px
+  background-image: linear-gradient(
+    45deg,
+    #F0F0F0,
+    #F0F0F0 94%,
+    #999 94%,
+    #999
+);
+  background-size: 10px 10px
+  
+// adding a class to avoid conflict with component's styles
+h1.demo-title
+  font-size 20px
+  margin 8px 2px
+  padding 0 4px
+  border-left rgba(44,44,44,.4) solid 4px
+  color rgba(44,44,44,.8)
+
+.demo
+  background #f18713
+  border #7A7A7A 1px solid
+  text-align center
+  height 100px
+  line-height 100px
+  font-size 20px
+
+.flex-demo
+  background #f18713
+  border #7A7A7A 1px solid
+  text-align center
+  min-height 100px
+  min-width 100px
+  line-height 100px
+  font-size 20px
+  &:nth-child(even)
+    background #2f82c4
+    min-height 200px
+    min-width 200px
+  &:nth-child(3n)
+    background #3DA35D
+    min-height 150px
+    min-width 150px
+
+.icon-demo
+  padding 10px
+  min-width 200px
+  max-width 200px
+  min-height 100px
+  .big
+    width: 50px !important
+    height: 50px !important
+  span
+    margin-top 20px
+
+.space-demo
+  height 200px
+
+
+// ComponentInfoDecorator
+
+.component-info-wrapper
+  .show-info
+    position fixed
+    bottom 0
+    right 0
+    border-radius: 4px
+    padding 4px 8px
+    font-size: 14px
+    background-color #2f82c4
+    color white
+.component-info
+  background white
+  padding 40px
+  margin-top 40px
+  h1
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 10px
+    color: initial
+    border: none
+  .usage
+    position relative
+    #copy-code
+      position absolute
+      top 10px
+      right 0
+    code
+      margin-top 10px
+      border-radius 4px
+      padding 20px
+  table
+    empty-cells: show;
+    th, td
+      font-size: 14px;
+      padding: 0.5em 1em; /* cell padding */
+
+.form-demo
+  max-width 600px
+  width 100%
+  margin auto
+  padding 20px
+  &>div
+    margin 4px 0
+
+.demo-sticker
+  position absolute 
+  right -8px      
+  top -8px      
+  width: 36px
+  height: @width
+  line-height: @width
+  background-color: #e20d00
+  font-size: 14px
+  font-weight: bold
+  color: #ffffff
+  text-align: center
+  transform rotate(-7deg)
+  border-radius 50%
+
+.layer-content
+  color white
+  font-size 18px
+
+.dark-bg
+  position absolute
+  display flex
+  height 100%
+  width 100%
+  background-image url(https://picsum.photos/1200/800)
+  background-size cover
