@@ -1,0 +1,103 @@
+@require '../_vars'
+
+
+$colors-input := {
+  default: {
+    label: #414141,
+    bg: #f4f4f4,
+    border: #d5d5d5
+  },
+  disabled: {
+    bg: #e7e7e7,
+    border: #d8d8d8
+  },
+  focus: {
+    border: #2f82c4
+  },
+  invalid: {
+    border: #e20d00
+  },
+  placeholder: {
+    text: #a7a7a7
+  },
+  small: {
+    bg: #fff
+  }
+}
+
+$sizes = {
+  default: {
+    font: 2rem,
+    height: 44px,
+    padding: 14px
+  },
+  small: {
+    font: 1.5rem,
+    height: 36px,
+    padding: 10px
+  }
+}
+
+$cut-sides = 'left', 'right'
+
+set-size($size = 'default')
+  font-size: $sizes[$size].font
+  padding: 0 $sizes[$size].padding
+  height: $sizes[$size].height
+  // NOTE this causes an issue with Safari, big typing cursor 
+  // line-height: @height
+  border-radius: 4px
+
+cut-input()
+  for $side in $cut-sides
+    &&--cut-{$side}
+      border-top-{$side}-radius: 0
+      border-bottom-{$side}-radius: 0
+      border-{$side}: 0
+
+set-color($variation)
+  if $colors-input[$variation].bg
+    background-color: $colors-input[$variation].bg
+  if $colors-input[$variation].border
+    border: 1px solid $colors-input[$variation].border
+
+placeholder()
+  &::placeholder
+    color: $colors-input.placeholder.text
+
+$input-skeleton
+  set-size()
+  set-color('default')
+  color: $colors-input.default.label
+  font-family: $body-font-family
+  font-weight: 400
+  display: inline-block
+  // NOTE this creates an issue with safari
+  // user-select: none
+  outline: none
+  box-shadow none
+  placeholder()
+
+input-mixin()
+  @extends $input-skeleton
+  cut-input()
+  &&--small
+    set-size('small')
+    set-color('small')
+  &&--invalid
+    set-color('invalid')
+  &:focus
+    set-color('focus')
+  &:disabled
+    cursor: not-allowed
+    set-color('disabled')
+
+    /* Override webkit font color change */
+    -webkit-text-fill-color:  $colors-input.default.label
+    -webkit-opacity: 1
+  &&--block
+    width: 100%
+    display: block
+
+.fk-input
+  input-mixin()

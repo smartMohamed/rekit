@@ -1,0 +1,47 @@
+@require '../_vars'
+
+$colors := {
+  red: #e20d00,
+  orange: #f18713,
+  blue: #2f82c4,
+  grey: #A7A7A7,
+  white: #fff
+}
+
+$factor = 0.75
+
+$sizes := {
+  small: unit(((18 * $factor) / $font-size-root), 'rem') ,
+  default: unit(((20 * $factor) / $font-size-root), 'rem'),
+  big: unit(((25 * $factor) / $font-size-root), 'rem'),
+}
+
+color-variation()
+  for $color in $colors
+    &&--{$color}
+      fill: $colors[$color]
+
+size-variation()
+  width: $sizes.default
+  height: $sizes.default
+  for $size in $sizes
+    if $size != 'default'
+      &&--{$size}
+        width: $sizes[$size]
+        height: @width
+
+
+icon-mixin()
+  display: inline-block
+  /* IE/Edge do not bubble click events up from SVG elements, so allow clicks to pass through */
+  pointer-events: none
+  position: relative
+  // top: 2px
+  fill: currentColor
+  size-variation()
+  &&--block
+    display: block
+  color-variation()
+
+.fk-icon
+  icon-mixin()
