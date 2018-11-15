@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="drop_arrow" data-name="drop arrow" class="cls-1" d="M875.34,683a1.4,1.4,0,0,1,.952.364l7.312,6.752a1.177,1.177,0,0,1,0,1.759l-7.312,6.751a1.425,1.425,0,0,1-1.9,0,1.175,1.175,0,0,1,0-1.758l6.359-5.873-6.36-5.872a1.178,1.178,0,0,1,0-1.759A1.4,1.4,0,0,1,875.34,683Z" transform="translate(-874 -683)"/>
+</svg>

@@ -10,6 +10,11 @@ module.exports = {
         loader: 'style-loader!css-loader!stylus-loader?resolve url',
         include: [srcPath, demoPath]
       },
+      {
+          test: /\.svg$/,
+          loader: require.resolve('file-loader'),
+          include: srcPath
+      }
     ]
   },
   resolve: {

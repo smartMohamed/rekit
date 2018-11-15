@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1" id="Ebene_2" 
+x="0px" y="0px" 
+viewBox="0 0 100 100" 
+style="enable-background:new 0 0 100 100;" class="st0" xml:space="preserve">
+<style type="text/css">
+	path.st0{
+	fill:#FFF;
+	-webkit-animation: rotation 1s infinite linear;
+	-moz-animation: rotation 1s infinite linear;
+	-o-animation: rotation 1s infinite linear;
+	animation: rotation 1s infinite linear;
+    transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+	}
+	@supports (-ms-ime-align:auto) {
+		svg.st0{
+		fill:#FFF;
+		-webkit-animation: rotation 1s infinite linear;
+		-moz-animation: rotation 1s infinite linear;
+		-o-animation: rotation 1s infinite linear;
+		animation: rotation 1s infinite linear;
+		transform-origin: 50% 50%;
+		-webkit-transform-origin: 50% 50%;
+		-moz-transform-origin: 50% 50%;
+		}
+	}
+  
+	@-webkit-keyframes rotation {
+	    from {-webkit-transform: rotate(0deg);}
+	    to   {-webkit-transform: rotate(359deg);}
+	}
+	@-moz-keyframes rotation {
+	    from {-moz-transform: rotate(0deg);}
+	    to   {-moz-transform: rotate(359deg);}
+	}
+	@-o-keyframes rotation {
+	    from {-o-transform: rotate(0deg);}
+	    to   {-o-transform: rotate(359deg);}
+	}
+	@keyframes rotation {
+	    from {transform: rotate(0deg);}
+	    to   {transform: rotate(359deg);}
+	}
+</style>
+<path class="st0" d="M50,0C22.4,0,0,22.4,0,50c0,27.6,22.4,50,50,50s50-22.4,50-50C100,22.4,77.6,0,50,0z M50,95.1  C25.1,95.1,4.9,74.9,4.9,50S25.1,4.9,50,4.9S95.1,25.1,95.1,50S74.9,95.1,50,95.1z M90,50c0,16-9.3,29.7-22.9,36.1  c4-4.2,6.5-10,6.5-16.3c0-13.1-10.6-23.7-23.7-23.7S26.3,56.8,26.3,69.8c0,6.3,2.5,12.1,6.5,16.3C19.3,79.7,10,66,10,50  c0-22.1,17.9-40,40-40S90,27.9,90,50z"/>
+</svg>

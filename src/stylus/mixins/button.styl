@@ -1,0 +1,128 @@
+@require '../_vars'
+
+$colors := {
+  orange: {
+    base: #f18713,
+    dark: #cd7310,
+    light: #f8c389
+  },
+  blue: {
+    base: #2f82c4,
+    dark: #286fa7,
+    light: #97c1e2
+  },
+  grey: {
+    base: #A7A7A7,
+    dark: #7A7A7A,
+    light: #D5D5D5
+  },
+}
+
+default = {
+  padding: 0 10px
+  height: 44px
+  border-radius: 4px
+  font-size: 2rem
+}
+
+small = {
+  padding: 0 20px
+  height: 36px
+  border-radius: 4px
+  font-size: 1.8rem
+
+}
+
+big = {
+  padding: 0 20px
+  height: 60px
+  border-radius: 8px
+  font-size: 2.5rem
+}
+$cut-sides = 'left', 'right'
+
+cut-button()
+  for $side in $cut-sides
+    &&--cut-{$side}
+      border-top-{$side}-radius: 0
+      border-bottom-{$side}-radius: 0
+      border-{$side}: 0
+
+$button-skeleton
+  {default}
+  font-family: $body-font-family
+  text-align: center
+  // border none
+  display: inline-block
+  text-decoration: none
+  user-select none
+  border-width: 2px
+  border-style: solid
+  line-height: (@height - (@border-width * 2))
+  vertical-align: middle
+  outline: none
+  transition: border-color background-color color 300ms
+  cut-button()
+  &:disabled,
+  &[disabled]
+    cursor: not-allowed
+  &:hover
+    cursor: pointer
+  &&--small
+    {small}
+    line-height: (@height - (@border-width * 2))
+  &&--big
+    {big}
+    line-height: (@height - (@border-width * 2))
+  &&--block
+    width: 100%
+    display: block
+  &&--loading
+    background-image: url('../assets/button-loader.svg')
+    background-repeat: no-repeat
+    background-size: 50% 50%
+    background-position: center
+    color: transparent !important
+  &&--capitalize
+    text-transform: capitalize
+
+
+
+button-outline($color)
+  background-color: transparent
+  color: $color.base
+  border: $color.base 2px solid
+  &:hover,
+  &:focus
+    color: $color.dark
+    border-color: $color.dark
+  &:disabled,
+  &[disabled]
+    color: $color.light
+    border-color: $color.light
+
+button-variation($color)
+  color: #ffffff
+  background-color: $color.base
+  border-color: $color.base
+  &:hover:not(^[-1]--loading):not(^[-1]--outline):not([disabled]),
+  &:focus:not(^[-1]--loading):not(^[-1]--outline):not([disabled])
+    background-color: $color.dark
+    border-color: $color.dark
+  &:disabled,
+  &[disabled]
+    background-color: $color.light
+    border-color: $color.light
+  &^[0]--outline
+    button-outline($color)
+
+button-mixin()
+  @extends $button-skeleton
+  button-variation($colors.grey)
+  &&--primary
+    button-variation($colors.orange)
+  &&--secondary
+    button-variation($colors.blue)
+
+.fk-btn
+  button-mixin()

@@ -1,10 +1,10 @@
-import React, {Component}  from 'react'
+import React  from 'react'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
 
 import '../stylus/mixins/icon.styl'
 
-class Icon extends Component {
+class Icon extends React.Component {
 
   get className () {
     return classnames({
