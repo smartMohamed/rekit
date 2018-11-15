@@ -11,9 +11,9 @@ module.exports = {
         include: [srcPath, demoPath]
       },
       {
-          test: /\.svg$/,
-          loader: require.resolve('file-loader'),
-          include: srcPath
+        test: /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|svg)(\?.*)?$/,
+         include: [srcPath],
+         loader: 'file-loader'
       }
     ]
   },

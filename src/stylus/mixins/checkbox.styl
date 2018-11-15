@@ -1,0 +1,67 @@
+@require '../_vars'
+
+$colors-checkbox := {
+  default: {
+    label: #414141,
+    bg: #f4f4f4,
+    border: #d5d5d5,
+  },
+  disabled: {
+    label: #a7a7a7,
+    bg: #e7e7e7,
+    border: #d8d8d8
+  },
+  invalid: {
+    border: #e20d00
+  }
+}
+
+$checkbox-size = 23px
+
+set-color($variation)
+  if $colors-checkbox[$variation].label
+    color: $colors-checkbox[$variation].label
+  input
+    if $colors-checkbox[$variation].bg
+      background-color: $colors-checkbox[$variation].bg
+    if $colors-checkbox[$variation].border
+      border: 1px solid $colors-checkbox[$variation].border
+
+
+checkbox-mixin()
+  set-color('default')
+  font-size: unit((20 / $font-size-root), 'rem')
+  line-height: $checkbox-size
+  display: flex
+  cursor: pointer
+  align-items start
+  input
+      flex none
+      outline: none
+      position relative
+      margin-right 10px
+      width $checkbox-size
+      height $checkbox-size
+      border-radius: 4px
+      -moz-appearance: none
+      &:checked:after
+        content ''
+        position relative
+        display block
+        top 3px
+        left 2px
+        width 17px
+        height 15px
+        background-repeat no-repeat
+        background-size cover
+        background-image url('../assets/check_arrow.svg')
+  &&--disabled
+    set-color('disabled')
+    cursor: not-allowed
+    input:disabled:checked:after
+      background-image url('../assets/check_arrow_disabled.svg')
+  &&--invalid
+    set-color('invalid')
+
+.fk-checkbox
+  checkbox-mixin()
