@@ -28,7 +28,7 @@ class CheckBox extends React.Component {
 
   render () {
     return (
-      <label class="fk-checkbox" className={this.className}>
+      <label className={this.className}>
         <input type="checkbox" value={this.props.value} checked={this.isChecked} onChange={this.updateValue} disabled={this.props.disabled} />
         {this.props.children}
       </label>
