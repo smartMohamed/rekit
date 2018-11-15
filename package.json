@@ -4,6 +4,7 @@
   "private": false,
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@smartfrog/password": "^1.1.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

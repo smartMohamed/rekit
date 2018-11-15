@@ -1,7 +1,10 @@
 import React from "react"
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
+import password from '@smartfrog/password'
 
+
+import { regex } from '@/mixins/validator' 
 import '../stylus/mixins/input.styl'
 
 class Input extends React.Component {
@@ -9,10 +12,22 @@ class Input extends React.Component {
     super(props)
     const value = props.value || ""
     this.state = {value}
+    this.validatorElement = true
+    this.touched = false
+    this.pattern = regex[props.type]
+    this.errors = {
+      pattern: false,
+      required: false,
+      lengthError: ''
+    }
   }
 
-  handleChange = event => {
-    this.setState({value: event.target.value})
+  get errone() {
+    return Object.values(this.errors || {}).some(Boolean)
+  }
+
+  get invalid() {
+    return this.props.wrong || (this.errone && this.touched)
   }
 
   get className() {
@@ -22,8 +37,58 @@ class Input extends React.Component {
       'fk-input--cut-left': this.props.cutSide === 'left',
       'fk-input--cut-right': this.props.cutSide === 'right',
       'fk-input--block': !!this.props.block,
-      'fk-input--invalid': this.props.invalid
+      'fk-input--invalid': this.invalid
     })
+  }
+
+  handleChange = (event) => {
+    this.touched = true
+    const value = event.target.value
+    this.setState({value: value})
+    this.props.onChange(value)
+  }
+
+
+  runValidation(value) {
+    this.errors = this.validate(value)
+  }
+
+  validate(value, type = this.props.type, force = false) {
+    const errors = {}
+    if (this.props.disabled) return errors
+    if (this.props.match) {
+      errors.pattern = value !== this.match
+      return errors
+    }
+
+    if (this.props.required || (this.props.requireValidation && value) || force) {
+      errors.required = typeof value === 'string' ? !value.length : !value
+      errors.pattern =
+        (this.pattern && !this.pattern.test(value)) ||
+        (typeof value === 'string' && !value.trim().length)
+      if (type === 'password') {
+        Object.assign(errors, password.getErrors(value))
+      }
+    }
+
+    return errors
+  }
+
+  getStatus(value) {
+    const passwordStatus = {
+      WEAK: 'danger',
+      MEDIUM: 'warning',
+      STRONG: 'success',
+    }
+    return passwordStatus[password.getStrength(value)]
+  }
+
+  componentWillReceiveProps() {
+    this.errors = this.validate(this.props.value)
+  }
+
+  componentWillUpdate(_, {value}) {
+    this.errors = this.validate(value)
   }
 
   render() {
@@ -42,7 +107,8 @@ Input.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   disabled: PropTypes.bool,
   match: PropTypes.string,
-  requireValidation: PropTypes.bool
+  requireValidation: PropTypes.bool,
+  wrong: PropTypes.bool
 }
 
 Input.defaultProps = {
@@ -54,7 +120,8 @@ Input.defaultProps = {
   value: '',
   disabled: false,
   match: '',
-  requireValidation: false
+  requireValidation: false,
+  wrong: false
 }
 
 export default Input

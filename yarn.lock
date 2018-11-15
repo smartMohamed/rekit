@@ -863,6 +863,10 @@
   dependencies:
     uuid "^3.1.0"
 
+"@smartfrog/password@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@smartfrog/password/-/password-1.1.0.tgz#d09641be8f50725475c9afd8b9c3a061c5142066"
+
 "@storybook/addon-actions@^4.0.6":
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-4.0.6.tgz#7dd73f2308cef35a1de6d63e200b878c1acc88d5"

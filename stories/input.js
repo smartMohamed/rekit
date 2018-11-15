@@ -2,8 +2,10 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import Input from "@/components/input";
 import { text, boolean, select } from '@storybook/addon-knobs'
+import { action } from '@storybook/addon-actions';
 
 const story = storiesOf("Input", module)
+
 
 story.add("with text", () => {
   const props = {
@@ -13,8 +15,12 @@ story.add("with text", () => {
     cutSide: select('Cut border', ['default', 'left', 'right'], 'default'),
     disabled: boolean('Disabled', false),
     block: boolean('Block', false),
-    required: boolean('Required', false),
+    required: boolean('Required', true),
     placeholder: text('Placeholder', 'Username')
-  }  
-  return (<Input {...props}/>)
+  }
+  return (
+    <div>
+      <Input {...props} onChange={action('input-change')} />
+    </div>
+    )
 })
