@@ -43,13 +43,15 @@ class Input extends React.Component {
 
   handleChange = (event) => {
     this.touched = true
-    const value = event.target.value
+    let value = event.target.value
+    if(this.props.type === 'ukZip') value = this.formatUkZip(value)
     this.setState({value: value})
     this.props.onChange(value)
   }
 
 
   runValidation(value) {
+    this.pattern = regex[this.props.type]
     this.errors = this.validate(value)
   }
 
@@ -83,12 +85,19 @@ class Input extends React.Component {
     return passwordStatus[password.getStrength(value)]
   }
 
-  componentWillReceiveProps() {
-    this.errors = this.validate(this.props.value)
+  formatUkZip (zip = '') {
+    const tmp = zip.replace(/\s+/g, '')
+    if (tmp.length < 5) return tmp
+    return tmp.slice(0, -3).concat(' ').concat(tmp.slice(-3))
   }
 
-  componentWillUpdate(_, {value}) {
-    this.errors = this.validate(value)
+  componentDidMount() {
+    this.runValidation(this.props.value)
+  }
+
+  shouldComponentUpdate(_, {value}) {
+    this.runValidation(value)
+    return true
   }
 
   render() {

@@ -1,0 +1,61 @@
+@require '../_vars'
+
+$border-color     = #e7e7e7
+$accordian-height = 70px 
+$header-padding   = 15px
+$icon-color       = #f18713
+$animation-speed  = 300ms
+
+accordion-mixin()
+  background-color  white
+  border-top        1px solid $border-color
+  border-bottom     1px solid $border-color
+  width             100%
+  &__title
+    max-width       85%
+  & &__header
+    flex-wrap:       nowrap
+    min-height          $accordian-height
+    padding         $header-padding
+    cursor          pointer
+    user-select     none
+  & &__icon
+    fill            $icon-color
+    width           20px
+    height          20px
+    transition      transform $animation-speed
+  & &__icon--open
+    transform       rotate(-45deg)
+  & &__content
+    padding         $header-padding
+    animation       slidein $animation-speed ease
+  & &__content-frame
+    overflow        hidden
+    animation       grow $animation-speed ease
+    
+
+@keyframes slidein {
+  from {
+    transform   translateY(-50%)
+    opacity     0
+  }
+
+  to {
+    transform   translateY(0%)
+    opacity     1
+  }
+}
+
+@keyframes grow {
+  from {
+    max-height  0vh
+  }
+
+  to {
+    max-height  100vh
+  }
+}
+
+
+.fk-accordion
+  accordion-mixin()

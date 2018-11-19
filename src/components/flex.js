@@ -28,7 +28,7 @@ class Flex extends React.Component {
 
   render() {
     return (
-    <div className={this.className}>
+    <div {...this.props} className={this.className}>
       {this.props.children}
     </div>)
   }
