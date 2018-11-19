@@ -7,20 +7,22 @@ import '../stylus/mixins/title.styl'
 class Title extends React.Component {
 
   get className () {
-    return classnames({
+    let className = classnames({
       'fk-title': true,
-      'fk-title--xl': this.props.size == 'xl',
-      'fk-title--lg': this.props.size == 'lg',
-      'fk-title--md': this.props.size == 'md',
-      'fk-title--sm': this.props.size == 'sm',
-      'fk-title--xs': this.props.size == 'xs',
-      'fk-title--bold': this.props.weight == 'bold',
-      'fk-title--slim': this.props.weight == 'slim',
-      'fk-title--primary': this.props.color == 'primary',
-      'fk-title--secondary': this.props.color == 'secondary',
-      'fk-title--light': this.props.color == 'light',
+      'fk-title--xl': this.props.size === 'xl',
+      'fk-title--lg': this.props.size === 'lg',
+      'fk-title--md': this.props.size === 'md',
+      'fk-title--sm': this.props.size === 'sm',
+      'fk-title--xs': this.props.size === 'xs',
+      'fk-title--bold': this.props.weight === 'bold',
+      'fk-title--slim': this.props.weight === 'slim',
+      'fk-title--primary': this.props.color === 'primary',
+      'fk-title--secondary': this.props.color === 'secondary',
+      'fk-title--light': this.props.color === 'light',
       'fk-title--center': !!this.props.center
     })
+    if(this.props.className) className = `${this.props.className} ${className}`
+    return className
   }
 
   get getStyles() {

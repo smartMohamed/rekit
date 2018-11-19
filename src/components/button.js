@@ -7,7 +7,7 @@ import '../stylus/mixins/button.styl'
 class Button extends React.Component {
 
   get className () {
-    return classnames({
+    let className = classnames({
       'fk-btn': true,
       'fk-btn--small': this.props.size === 'small',
       'fk-btn--big': this.props.size === 'big',
@@ -20,6 +20,8 @@ class Button extends React.Component {
       'fk-btn--cut-right': this.props.cutSide === 'right',
       'fk-btn--capitalize': this.props.capitalize
     })
+    if (this.props.className) className = `${this.props.className} ${className}`
+    return className
   }
   render () {
     const Tag = this.props.link ? 'a' : 'button'

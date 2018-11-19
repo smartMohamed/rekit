@@ -1,0 +1,245 @@
+@require '../_vars'
+
+$white = #fff
+$bgColor = #eaeaea
+$borderColor = #d2d2d2
+$borderColorLight = #e7e7e7
+$navColor = #414141
+$navColorPrimary = #f18713
+$navColorSecondary = #2f82c4
+$navColorMobile = #646464
+
+$header-height = 50px
+$border-radius = 10px
+
+mobile-only()
+  @media only screen and (min-width: $bp-sm)
+    display: none !important
+
+desktop-only()
+  @media only screen and (max-width: $bp-sm)
+    display: none !important
+
+container()
+  position relative
+  display flex
+  flex 1
+  flex-wrap wrap
+  align-items center
+  height $header-height
+  background $bgColor
+  border-bottom-left-radius $border-radius
+  border-bottom-right-radius $border-radius
+  border 1px solid $borderColor
+  border-top none
+
+logo()
+  background $navColorPrimary
+  border-bottom-left-radius $border-radius
+  height $header-height
+  width @height
+  padding 5px
+  a
+    display block
+  svg
+    min-width 40px
+    width 40px
+    height @width
+    fill $white
+
+// desktop navigation
+desktop-nav()
+  desktop-only()
+  @media only screen and (min-width: $bp-sm)
+    display: flex
+    flex: 1
+    align-items center
+
+// links common styles
+nav-links-default()
+  font-size 1.6rem
+  display: inline-block
+  color: $navColor
+  text-decoration: none
+  &:hover
+    link-selected()
+
+// selected links common styles
+link-selected()
+  color: $navColorPrimary
+  background-color $white
+  svg
+    fill $navColorPrimary
+
+// links with icon common styles
+icon-links()
+  height $header-height
+  line-height @height
+  padding-left 58px
+  padding-right 18px
+  border-right 1px solid hsla(0,0%,48%,.2)
+  border-bottom 1px solid $borderColor
+  position relative
+  white-space nowrap
+  svg
+    position absolute
+    fill #6f6f6f
+    top 8px
+    left 18px
+    width 30px
+    height 32px
+  &:hover
+    link-selected()
+
+//  drop down common styles
+dropdown()
+  display none
+  position absolute
+  background-color $white
+  z-index 10000
+  border-bottom-left-radius 6px
+  border-bottom-right-radius 6px
+
+// all cameras
+camera()
+  position relative
+  a
+    nav-links-default()
+    icon-links()
+  ul
+    dropdown()
+    top 49px
+    left 0
+    box-shadow 0 6px 12px rgba(0,0,0,.175)
+    border 1px solid hsla(0,0%,48%,.7)
+    min-width 160px
+    z-index 10
+    padding-bottom 25px
+    a
+      background-image none !important
+      white-space nowrap
+      padding: 15px 20px
+      border none !important
+      &.selected
+        link-selected()
+  &:hover
+    ul
+      display block
+
+// my account
+account()
+  nav-links-default()
+  icon-links()
+
+rounded-links()
+  font-size 1.6rem
+  height: 34px
+  line-height: @height
+  display: inline-block
+  white-space nowrap
+  padding 0 15px
+  cursor pointer
+  border-radius: 18px
+  border 1px solid hsla(0,0%,48%,.2)
+  background #f2f2f1
+  color #818080
+  &:hover
+    link-selected()
+    background $white
+  &--on
+    &:hover
+      background hsla(0,0%,100%,.6)
+
+// language selector
+language-selector()
+  rounded-links()
+  text-transform uppercase
+  margin-right 15px
+  position relative
+
+  svg
+    width 12px
+    height @width
+    vertical-align middle
+  ul
+    dropdown()
+    min-width 110px
+    top 40px
+    right 0
+    padding 10px 0
+    border 1px solid $borderColorLight
+    border-top none
+    text-align right
+    text-transform none
+    font-size 1.5rem
+    color $navColor
+    li
+      display block
+      padding 2px 10px
+      &:hover
+        link-selected()
+        background $borderColorLight
+  &--on
+    svg
+      transform rotate(180deg)
+    ul
+      display block
+
+
+// toggle navigation icon
+toggle-nav-icon()
+  // wrapper element needed because cursor styles and events handlers don't work if applied to svgs directly
+  // https://stackoverflow.com/questions/26672936/cursor-pointer-on-svg-element-is-not-working
+  cursor pointer
+  margin-left auto
+  margin-right 15px
+  svg
+    width: 21px
+    height: @width
+  mobile-only()
+
+app-header-mixin()
+  min-width 320px
+  z-index 100
+  &__container
+    container()
+  &__logo
+    logo()
+  &__nav
+    desktop-nav()
+  &__cam
+    camera()
+  &__account
+    account()
+  &__btn-shop
+    margin-left 15px
+    padding 0 10px !important
+  &__user
+    font-size 1.6rem
+    width 320px
+    text-align right
+    text-overflow ellipsis
+    overflow hidden
+    white-space nowrap
+    margin-left auto
+    margin-right 15px
+    color #646464
+    @media only screen and (max-width: $bp-md)
+      width 15px
+      span
+        display none
+  &__logout
+    rounded-links()
+    margin-right 10px
+    .fk-icon
+      height 12px
+      width @height
+      transform rotate(-90deg)
+  &__lang
+    language-selector()
+  &__toggle
+    toggle-nav-icon()
+
+
+.fk-app-header
+  app-header-mixin()

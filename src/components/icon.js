@@ -7,11 +7,13 @@ import '../stylus/mixins/icon.styl'
 class Icon extends React.Component {
 
   get className () {
-    return classnames({
+    let className = classnames({
       'fk-icon': true,
       [`fk-icon--${this.props.color}`]: !!this.props.color,
       [`fk-icon--${this.props.size}`]: !!this.props.size,
     })
+    if (this.props.className)  className = `${className} ${this.props.className}`
+    return className
   }
   buildComponent = () => {
     const icon = require (`@/components/icons/${this.props.icon}`).default
