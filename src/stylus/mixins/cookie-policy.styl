@@ -1,0 +1,44 @@
+$font-color = #414141
+$border-color = #e7e7e7
+$bp-tm = 375px
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+cookie-policy-mixin()
+  opacity: 0 
+  animation: fadein 1s forwards
+  width 100%
+  background #fff
+  position fixed
+  bottom 0
+  font-size 1.6rem
+  color $font-color
+  padding 16px
+  z-index 1000
+  border-top: 1px solid $border-color
+  a
+    text-decoration: underline
+    color inherit
+  &__content
+    flex: 1
+  &__close
+    background-color #f18713
+    height: 24px
+    width: @height
+    padding: 4px 5px
+    cursor: pointer
+    border-radius: 5px
+    margin-left: 20px
+    @media (max-width $bp-tm)
+      height: 30px
+      width: @height
+      padding: 6px
+      svg 
+        height 1.8rem
+        width @height
+
+.cookie-policy
+  cookie-policy-mixin()
