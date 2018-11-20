@@ -26,8 +26,8 @@ class Select extends React.Component {
   validate = () => {}
 
   renderOptions = () => {
-    return this.props.options.map((option, $index) => (
-      <option key={$index} value={option.value} selected={this.state.value == option.value}>
+    return !this.props.options.length ? '' : this.props.options.map((option, $index) => (
+      <option key={$index} value={option.value} selected={this.state.value === option.value}>
           { option.label }
       </option>
     ))
@@ -40,6 +40,7 @@ class Select extends React.Component {
           (() => this.props.placeholder ? <option value="" selected={!this.state.value}>{this.props.placeholder}</option> : '')()
         }
         {this.renderOptions()}
+        {this.props.children}
       </select>
     )
   }

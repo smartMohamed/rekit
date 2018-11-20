@@ -1,0 +1,2597 @@
+[{
+  "countryCode": "DE",
+  "countryName": "Deutschland",
+  "market": "HW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "de": "Deutschland"
+  },
+  "preferred": true,
+  "displayName": "Deutschland"
+}, {
+  "countryCode": "AT",
+  "countryName": "Österreich",
+  "market": "HW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "de": "Österreich"
+  },
+  "preferred": true,
+  "displayName": "Österreich"
+}, {
+  "countryCode": "CH",
+  "countryName": "Schweiz",
+  "market": "HW",
+  "currency": "CHF",
+  "currencySign": "Fr.",
+  "languages": {
+    "de": "Schweiz"
+  },
+  "preferred": true,
+  "displayName": "Schweiz"
+}, {
+  "countryCode": "IE",
+  "countryName": "Irland",
+  "market": "HW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Ireland"
+  },
+  "preferred": true,
+  "displayName": "Ireland"
+}, {
+  "countryCode": "GB",
+  "countryName": "Großbritannien (UK)",
+  "market": "HW",
+  "currency": "GBP",
+  "currencySign": "£",
+  "languages": {
+    "en": "United Kingdom"
+  },
+  "preferred": true,
+  "displayName": "United Kingdom"
+}, {
+  "countryCode": "AF",
+  "countryName": "Afghanistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Afghanistan"
+  },
+  "preferred": false,
+  "displayName": "Afghanistan"
+}, {
+  "countryCode": "EG",
+  "countryName": "Ägypten",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Egypt"
+  },
+  "preferred": true,
+  "displayName": "Egypt"
+}, {
+  "countryCode": "AL",
+  "countryName": "Albanien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Albania"
+  },
+  "preferred": false,
+  "displayName": "Albania"
+}, {
+  "countryCode": "DZ",
+  "countryName": "Algerien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Algeria"
+  },
+  "preferred": false,
+  "displayName": "Algeria"
+}, {
+  "countryCode": "AD",
+  "countryName": "Andorra",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Andorra"
+  },
+  "preferred": false,
+  "displayName": "Andorra"
+}, {
+  "countryCode": "AO",
+  "countryName": "Angola",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Angola"
+  },
+  "preferred": false,
+  "displayName": "Angola"
+}, {
+  "countryCode": "AI",
+  "countryName": "Anguilla",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Anguilla"
+  },
+  "preferred": false,
+  "displayName": "Anguilla"
+}, {
+  "countryCode": "AQ",
+  "countryName": "Antarktis",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Antarctica"
+  },
+  "preferred": false,
+  "displayName": "Antarctica"
+}, {
+  "countryCode": "AG",
+  "countryName": "Antigua und Barbuda",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Antigua and Barbuda"
+  },
+  "preferred": false,
+  "displayName": "Antigua and Barbuda"
+}, {
+  "countryCode": "GQ",
+  "countryName": "Äquatorial Guinea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Equatorial Guinea"
+  },
+  "preferred": false,
+  "displayName": "Equatorial Guinea"
+}, {
+  "countryCode": "AR",
+  "countryName": "Argentinien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Argentina"
+  },
+  "preferred": true,
+  "displayName": "Argentina"
+}, {
+  "countryCode": "AM",
+  "countryName": "Armenien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Armenia"
+  },
+  "preferred": false,
+  "displayName": "Armenia"
+}, {
+  "countryCode": "AW",
+  "countryName": "Aruba",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Aruba"
+  },
+  "preferred": false,
+  "displayName": "Aruba"
+}, {
+  "countryCode": "AZ",
+  "countryName": "Aserbaidschan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Azerbaijan"
+  },
+  "preferred": false,
+  "displayName": "Azerbaijan"
+}, {
+  "countryCode": "ET",
+  "countryName": "Äthiopien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Ethiopia"
+  },
+  "preferred": false,
+  "displayName": "Ethiopia"
+}, {
+  "countryCode": "AU",
+  "countryName": "Australien",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Australia"
+  },
+  "preferred": true,
+  "displayName": "Australia"
+}, {
+  "countryCode": "BS",
+  "countryName": "Bahamas",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bahamas"
+  },
+  "preferred": false,
+  "displayName": "Bahamas"
+}, {
+  "countryCode": "BH",
+  "countryName": "Bahrain",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bahrain"
+  },
+  "preferred": true,
+  "displayName": "Bahrain"
+}, {
+  "countryCode": "BD",
+  "countryName": "Bangladesh",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bangladesh"
+  },
+  "preferred": false,
+  "displayName": "Bangladesh"
+}, {
+  "countryCode": "BB",
+  "countryName": "Barbados",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Barbados"
+  },
+  "preferred": false,
+  "displayName": "Barbados"
+}, {
+  "countryCode": "BE",
+  "countryName": "Belgien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Belgium"
+  },
+  "preferred": true,
+  "displayName": "Belgium"
+}, {
+  "countryCode": "BZ",
+  "countryName": "Belize",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Belize"
+  },
+  "preferred": false,
+  "displayName": "Belize"
+}, {
+  "countryCode": "BJ",
+  "countryName": "Benin",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Benin"
+  },
+  "preferred": false,
+  "displayName": "Benin"
+}, {
+  "countryCode": "BM",
+  "countryName": "Bermudas",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bermuda"
+  },
+  "preferred": false,
+  "displayName": "Bermuda"
+}, {
+  "countryCode": "BT",
+  "countryName": "Bhutan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bhutan"
+  },
+  "preferred": false,
+  "displayName": "Bhutan"
+}, {
+  "countryCode": "BO",
+  "countryName": "Bolivien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bolivia"
+  },
+  "preferred": false,
+  "displayName": "Bolivia"
+}, {
+  "countryCode": "BA",
+  "countryName": "Bosnien-Herzegowina",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bosnia and Herzegovina"
+  },
+  "preferred": false,
+  "displayName": "Bosnia and Herzegovina"
+}, {
+  "countryCode": "BW",
+  "countryName": "Botswana",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Botswana"
+  },
+  "preferred": false,
+  "displayName": "Botswana"
+}, {
+  "countryCode": "BV",
+  "countryName": "Bouvet-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Bouvet Island"
+  },
+  "preferred": false,
+  "displayName": "Bouvet Island"
+}, {
+  "countryCode": "BR",
+  "countryName": "Brasilien",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Brazil"
+  },
+  "preferred": true,
+  "displayName": "Brazil"
+}, {
+  "countryCode": "IO",
+  "countryName": "Britisch-Indischer Ozean",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "British Indian Ocean Territory"
+  },
+  "preferred": false,
+  "displayName": "British Indian Ocean Territory"
+}, {
+  "countryCode": "BN",
+  "countryName": "Brunei",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Brunei Darussalam"
+  },
+  "preferred": false,
+  "displayName": "Brunei Darussalam"
+}, {
+  "countryCode": "BG",
+  "countryName": "Bulgarien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Bulgaria"
+  },
+  "preferred": true,
+  "displayName": "Bulgaria"
+}, {
+  "countryCode": "BF",
+  "countryName": "Burkina Faso",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Burkina Faso"
+  },
+  "preferred": false,
+  "displayName": "Burkina Faso"
+}, {
+  "countryCode": "BI",
+  "countryName": "Burundi",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Burundi"
+  },
+  "preferred": false,
+  "displayName": "Burundi"
+}, {
+  "countryCode": "CL",
+  "countryName": "Chile",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Chile"
+  },
+  "preferred": false,
+  "displayName": "Chile"
+}, {
+  "countryCode": "CN",
+  "countryName": "China",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "China"
+  },
+  "preferred": true,
+  "displayName": "China"
+}, {
+  "countryCode": "CX",
+  "countryName": "Christmas Island",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Christmas Island"
+  },
+  "preferred": false,
+  "displayName": "Christmas Island"
+}, {
+  "countryCode": "CK",
+  "countryName": "Cook-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cook Islands"
+  },
+  "preferred": false,
+  "displayName": "Cook Islands"
+}, {
+  "countryCode": "CR",
+  "countryName": "Costa Rica",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Costa Rica"
+  },
+  "preferred": false,
+  "displayName": "Costa Rica"
+}, {
+  "countryCode": "DK",
+  "countryName": "Dänemark",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Denmark"
+  },
+  "preferred": true,
+  "displayName": "Denmark"
+}, {
+  "countryCode": "DJ",
+  "countryName": "Djibuti",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Djibouti"
+  },
+  "preferred": false,
+  "displayName": "Djibouti"
+}, {
+  "countryCode": "DM",
+  "countryName": "Dominika",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Dominica"
+  },
+  "preferred": false,
+  "displayName": "Dominica"
+}, {
+  "countryCode": "DO",
+  "countryName": "Dominikanische Republik",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Dominican Republic"
+  },
+  "preferred": false,
+  "displayName": "Dominican Republic"
+}, {
+  "countryCode": "EC",
+  "countryName": "Ecuador",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Ecuador"
+  },
+  "preferred": false,
+  "displayName": "Ecuador"
+}, {
+  "countryCode": "CI",
+  "countryName": "Elfenbeinküste",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cote D'Ivoire (Ivory Coast)"
+  },
+  "preferred": false,
+  "displayName": "Cote D'Ivoire (Ivory Coast)"
+}, {
+  "countryCode": "SV",
+  "countryName": "El Salvador",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "El Salvador"
+  },
+  "preferred": false,
+  "displayName": "El Salvador"
+}, {
+  "countryCode": "ER",
+  "countryName": "Eritrea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Eritrea"
+  },
+  "preferred": false,
+  "displayName": "Eritrea"
+}, {
+  "countryCode": "EE",
+  "countryName": "Estland",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Estonia"
+  },
+  "preferred": true,
+  "displayName": "Estonia"
+}, {
+  "countryCode": "FK",
+  "countryName": "Falkland-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Falkland Islands (Malvinas)"
+  },
+  "preferred": false,
+  "displayName": "Falkland Islands (Malvinas)"
+}, {
+  "countryCode": "FO",
+  "countryName": "Färöer Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Faroe Islands"
+  },
+  "preferred": false,
+  "displayName": "Faroe Islands"
+}, {
+  "countryCode": "FJ",
+  "countryName": "Fidschi-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Fiji"
+  },
+  "preferred": false,
+  "displayName": "Fiji"
+}, {
+  "countryCode": "FI",
+  "countryName": "Finnland",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Finland"
+  },
+  "preferred": true,
+  "displayName": "Finland"
+}, {
+  "countryCode": "FR",
+  "countryName": "Frankreich",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "France"
+  },
+  "preferred": true,
+  "displayName": "France"
+}, {
+  "countryCode": "TF",
+  "countryName": "Französisches Süd-Territorium",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "French Southern Territories"
+  },
+  "preferred": false,
+  "displayName": "French Southern Territories"
+}, {
+  "countryCode": "GF",
+  "countryName": "französisch Guyana",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "French Guiana"
+  },
+  "preferred": false,
+  "displayName": "French Guiana"
+}, {
+  "countryCode": "PF",
+  "countryName": "Französisch-Polynesien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "French Polynesia"
+  },
+  "preferred": false,
+  "displayName": "French Polynesia"
+}, {
+  "countryCode": "GA",
+  "countryName": "Gabun",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Gabon"
+  },
+  "preferred": false,
+  "displayName": "Gabon"
+}, {
+  "countryCode": "GM",
+  "countryName": "Gambia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Gambia"
+  },
+  "preferred": false,
+  "displayName": "Gambia"
+}, {
+  "countryCode": "GE",
+  "countryName": "Georgien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Georgia"
+  },
+  "preferred": false,
+  "displayName": "Georgia"
+}, {
+  "countryCode": "GH",
+  "countryName": "Ghana",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Ghana"
+  },
+  "preferred": false,
+  "displayName": "Ghana"
+}, {
+  "countryCode": "GI",
+  "countryName": "Gibraltar",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Gibraltar"
+  },
+  "preferred": false,
+  "displayName": "Gibraltar"
+}, {
+  "countryCode": "GD",
+  "countryName": "Grenada",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Grenada"
+  },
+  "preferred": false,
+  "displayName": "Grenada"
+}, {
+  "countryCode": "GR",
+  "countryName": "Griechenland",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Greece"
+  },
+  "preferred": true,
+  "displayName": "Greece"
+}, {
+  "countryCode": "GL",
+  "countryName": "Grönland",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Greenland"
+  },
+  "preferred": false,
+  "displayName": "Greenland"
+}, {
+  "countryCode": "GP",
+  "countryName": "Guadeloupe",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Guadeloupe"
+  },
+  "preferred": false,
+  "displayName": "Guadeloupe"
+}, {
+  "countryCode": "GU",
+  "countryName": "Guam",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Guam"
+  },
+  "preferred": false,
+  "displayName": "Guam"
+}, {
+  "countryCode": "GT",
+  "countryName": "Guatemala",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Guatemala"
+  },
+  "preferred": false,
+  "displayName": "Guatemala"
+}, {
+  "countryCode": "GN",
+  "countryName": "Guinea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Guinea"
+  },
+  "preferred": false,
+  "displayName": "Guinea"
+}, {
+  "countryCode": "GW",
+  "countryName": "Guinea Bissau",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Guinea-Bissau"
+  },
+  "preferred": false,
+  "displayName": "Guinea-Bissau"
+}, {
+  "countryCode": "GY",
+  "countryName": "Guyana",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Guyana"
+  },
+  "preferred": false,
+  "displayName": "Guyana"
+}, {
+  "countryCode": "HT",
+  "countryName": "Haiti",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Haiti"
+  },
+  "preferred": false,
+  "displayName": "Haiti"
+}, {
+  "countryCode": "HM",
+  "countryName": "Heard und McDonald Islands",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Heard and McDonald Islands"
+  },
+  "preferred": false,
+  "displayName": "Heard and McDonald Islands"
+}, {
+  "countryCode": "HN",
+  "countryName": "Honduras",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Honduras"
+  },
+  "preferred": false,
+  "displayName": "Honduras"
+}, {
+  "countryCode": "HK",
+  "countryName": "Hong Kong",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Hong Kong"
+  },
+  "preferred": true,
+  "displayName": "Hong Kong"
+}, {
+  "countryCode": "IN",
+  "countryName": "Indien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "India"
+  },
+  "preferred": true,
+  "displayName": "India"
+}, {
+  "countryCode": "ID",
+  "countryName": "Indonesien",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Indonesia"
+  },
+  "preferred": false,
+  "displayName": "Indonesia"
+}, {
+  "countryCode": "IQ",
+  "countryName": "Irak",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Iraq"
+  },
+  "preferred": false,
+  "displayName": "Iraq"
+}, {
+  "countryCode": "IR",
+  "countryName": "Iran",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Iran"
+  },
+  "preferred": true,
+  "displayName": "Iran"
+}, {
+  "countryCode": "IS",
+  "countryName": "Island",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Iceland"
+  },
+  "preferred": false,
+  "displayName": "Iceland"
+}, {
+  "countryCode": "IL",
+  "countryName": "Israel",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Israel"
+  },
+  "preferred": false,
+  "displayName": "Israel"
+}, {
+  "countryCode": "IT",
+  "countryName": "Italien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Italy"
+  },
+  "preferred": true,
+  "displayName": "Italy"
+}, {
+  "countryCode": "JM",
+  "countryName": "Jamaika",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Jamaica"
+  },
+  "preferred": false,
+  "displayName": "Jamaica"
+}, {
+  "countryCode": "JP",
+  "countryName": "Japan",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Japan"
+  },
+  "preferred": true,
+  "displayName": "Japan"
+}, {
+  "countryCode": "YE",
+  "countryName": "Jemen",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Yemen"
+  },
+  "preferred": false,
+  "displayName": "Yemen"
+}, {
+  "countryCode": "JO",
+  "countryName": "Jordanien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Jordan"
+  },
+  "preferred": false,
+  "displayName": "Jordan"
+}, {
+  "countryCode": "KY",
+  "countryName": "Kaiman-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cayman Islands"
+  },
+  "preferred": false,
+  "displayName": "Cayman Islands"
+}, {
+  "countryCode": "KH",
+  "countryName": "Kambodscha",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cambodia"
+  },
+  "preferred": false,
+  "displayName": "Cambodia"
+}, {
+  "countryCode": "CM",
+  "countryName": "Kamerun",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cameroon"
+  },
+  "preferred": false,
+  "displayName": "Cameroon"
+}, {
+  "countryCode": "CA",
+  "countryName": "Kanada",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Canada"
+  },
+  "preferred": true,
+  "displayName": "Canada"
+}, {
+  "countryCode": "CV",
+  "countryName": "Kap Verde",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cape Verde"
+  },
+  "preferred": false,
+  "displayName": "Cape Verde"
+}, {
+  "countryCode": "KZ",
+  "countryName": "Kasachstan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Kazakhstan"
+  },
+  "preferred": false,
+  "displayName": "Kazakhstan"
+}, {
+  "countryCode": "KE",
+  "countryName": "Kenia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Kenya"
+  },
+  "preferred": false,
+  "displayName": "Kenya"
+}, {
+  "countryCode": "KG",
+  "countryName": "Kirgisistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Kyrgyzstan"
+  },
+  "preferred": false,
+  "displayName": "Kyrgyzstan"
+}, {
+  "countryCode": "KI",
+  "countryName": "Kiribati",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Kiribati"
+  },
+  "preferred": false,
+  "displayName": "Kiribati"
+}, {
+  "countryCode": "CC",
+  "countryName": "Kokosinseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cocos (Keeling) Islands"
+  },
+  "preferred": false,
+  "displayName": "Cocos (Keeling) Islands"
+}, {
+  "countryCode": "CO",
+  "countryName": "Kolumbien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Colombia"
+  },
+  "preferred": false,
+  "displayName": "Colombia"
+}, {
+  "countryCode": "KM",
+  "countryName": "Komoren",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Comoros"
+  },
+  "preferred": false,
+  "displayName": "Comoros"
+}, {
+  "countryCode": "CG",
+  "countryName": "Kongo",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Congo"
+  },
+  "preferred": false,
+  "displayName": "Congo"
+}, {
+  "countryCode": "HR",
+  "countryName": "Kroatien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Croatia (Hrvatska)"
+  },
+  "preferred": true,
+  "displayName": "Croatia (Hrvatska)"
+}, {
+  "countryCode": "CU",
+  "countryName": "Kuba",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Cuba"
+  },
+  "preferred": false,
+  "displayName": "Cuba"
+}, {
+  "countryCode": "KW",
+  "countryName": "Kuwait",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Kuwait"
+  },
+  "preferred": true,
+  "displayName": "Kuwait"
+}, {
+  "countryCode": "LA",
+  "countryName": "Laos",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Laos"
+  },
+  "preferred": false,
+  "displayName": "Laos"
+}, {
+  "countryCode": "LS",
+  "countryName": "Lesotho",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Lesotho"
+  },
+  "preferred": false,
+  "displayName": "Lesotho"
+}, {
+  "countryCode": "LV",
+  "countryName": "Lettland",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Latvia"
+  },
+  "preferred": false,
+  "displayName": "Latvia"
+}, {
+  "countryCode": "LB",
+  "countryName": "Libanon",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Lebanon"
+  },
+  "preferred": false,
+  "displayName": "Lebanon"
+}, {
+  "countryCode": "LR",
+  "countryName": "Liberia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Liberia"
+  },
+  "preferred": false,
+  "displayName": "Liberia"
+}, {
+  "countryCode": "LY",
+  "countryName": "Libyen",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Libya"
+  },
+  "preferred": false,
+  "displayName": "Libya"
+}, {
+  "countryCode": "LI",
+  "countryName": "Liechtenstein",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Liechtenstein"
+  },
+  "preferred": true,
+  "displayName": "Liechtenstein"
+}, {
+  "countryCode": "LT",
+  "countryName": "Litauen",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Lithuania"
+  },
+  "preferred": false,
+  "displayName": "Lithuania"
+}, {
+  "countryCode": "LU",
+  "countryName": "Luxemburg",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Luxembourg"
+  },
+  "preferred": true,
+  "displayName": "Luxembourg"
+}, {
+  "countryCode": "MO",
+  "countryName": "Macao",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Macau"
+  },
+  "preferred": false,
+  "displayName": "Macau"
+}, {
+  "countryCode": "MG",
+  "countryName": "Madagaskar",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Madagascar"
+  },
+  "preferred": false,
+  "displayName": "Madagascar"
+}, {
+  "countryCode": "MW",
+  "countryName": "Malawi",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Malawi"
+  },
+  "preferred": false,
+  "displayName": "Malawi"
+}, {
+  "countryCode": "MY",
+  "countryName": "Malaysia",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Malaysia"
+  },
+  "preferred": true,
+  "displayName": "Malaysia"
+}, {
+  "countryCode": "MV",
+  "countryName": "Malediven",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Maldives"
+  },
+  "preferred": false,
+  "displayName": "Maldives"
+}, {
+  "countryCode": "ML",
+  "countryName": "Mali",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mali"
+  },
+  "preferred": false,
+  "displayName": "Mali"
+}, {
+  "countryCode": "MT",
+  "countryName": "Malta",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Malta"
+  },
+  "preferred": false,
+  "displayName": "Malta"
+}, {
+  "countryCode": "MP",
+  "countryName": "Marianen",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Northern Mariana Islands"
+  },
+  "preferred": false,
+  "displayName": "Northern Mariana Islands"
+}, {
+  "countryCode": "MA",
+  "countryName": "Marokko",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Morocco"
+  },
+  "preferred": false,
+  "displayName": "Morocco"
+}, {
+  "countryCode": "MH",
+  "countryName": "Marshall-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Marshall Islands"
+  },
+  "preferred": false,
+  "displayName": "Marshall Islands"
+}, {
+  "countryCode": "MQ",
+  "countryName": "Martinique",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Martinique"
+  },
+  "preferred": false,
+  "displayName": "Martinique"
+}, {
+  "countryCode": "MR",
+  "countryName": "Mauretanien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mauritania"
+  },
+  "preferred": false,
+  "displayName": "Mauritania"
+}, {
+  "countryCode": "MU",
+  "countryName": "Mauritius",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mauritius"
+  },
+  "preferred": false,
+  "displayName": "Mauritius"
+}, {
+  "countryCode": "YT",
+  "countryName": "Mayotte",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mayotte"
+  },
+  "preferred": false,
+  "displayName": "Mayotte"
+}, {
+  "countryCode": "MK",
+  "countryName": "Mazedonien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Macedonia"
+  },
+  "preferred": false,
+  "displayName": "Macedonia"
+}, {
+  "countryCode": "MX",
+  "countryName": "Mexiko",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mexico"
+  },
+  "preferred": true,
+  "displayName": "Mexico"
+}, {
+  "countryCode": "FM",
+  "countryName": "Mikronesien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Micronesia"
+  },
+  "preferred": false,
+  "displayName": "Micronesia"
+}, {
+  "countryCode": "MZ",
+  "countryName": "Mocambique",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mozambique"
+  },
+  "preferred": false,
+  "displayName": "Mozambique"
+}, {
+  "countryCode": "MD",
+  "countryName": "Moldavien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Moldova"
+  },
+  "preferred": false,
+  "displayName": "Moldova"
+}, {
+  "countryCode": "MC",
+  "countryName": "Monaco",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Monaco"
+  },
+  "preferred": false,
+  "displayName": "Monaco"
+}, {
+  "countryCode": "MN",
+  "countryName": "Mongolei",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Mongolia"
+  },
+  "preferred": false,
+  "displayName": "Mongolia"
+}, {
+  "countryCode": "ME",
+  "countryName": "Montenegro",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Montenegro"
+  },
+  "preferred": false,
+  "displayName": "Montenegro"
+}, {
+  "countryCode": "MS",
+  "countryName": "Montserrat",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Montserrat"
+  },
+  "preferred": false,
+  "displayName": "Montserrat"
+}, {
+  "countryCode": "MM",
+  "countryName": "Myanmar",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Myanmar"
+  },
+  "preferred": false,
+  "displayName": "Myanmar"
+}, {
+  "countryCode": "NA",
+  "countryName": "Namibia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Namibia"
+  },
+  "preferred": false,
+  "displayName": "Namibia"
+}, {
+  "countryCode": "NR",
+  "countryName": "Nauru",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Nauru"
+  },
+  "preferred": false,
+  "displayName": "Nauru"
+}, {
+  "countryCode": "NP",
+  "countryName": "Nepal",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Nepal"
+  },
+  "preferred": false,
+  "displayName": "Nepal"
+}, {
+  "countryCode": "NC",
+  "countryName": "Neukaledonien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "New Caledonia"
+  },
+  "preferred": false,
+  "displayName": "New Caledonia"
+}, {
+  "countryCode": "NZ",
+  "countryName": "Neuseeland",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "New Zealand"
+  },
+  "preferred": true,
+  "displayName": "New Zealand"
+}, {
+  "countryCode": "NI",
+  "countryName": "Nicaragua",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Nicaragua"
+  },
+  "preferred": false,
+  "displayName": "Nicaragua"
+}, {
+  "countryCode": "NL",
+  "countryName": "Niederlande",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Netherlands"
+  },
+  "preferred": true,
+  "displayName": "Netherlands"
+}, {
+  "countryCode": "NE",
+  "countryName": "Niger",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Niger"
+  },
+  "preferred": false,
+  "displayName": "Niger"
+}, {
+  "countryCode": "NG",
+  "countryName": "Nigeria",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Nigeria"
+  },
+  "preferred": false,
+  "displayName": "Nigeria"
+}, {
+  "countryCode": "NU",
+  "countryName": "Niue",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Niue"
+  },
+  "preferred": false,
+  "displayName": "Niue"
+}, {
+  "countryCode": "KP",
+  "countryName": "Nordkorea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Korea (North)"
+  },
+  "preferred": false,
+  "displayName": "Korea (North)"
+}, {
+  "countryCode": "NF",
+  "countryName": "Norfolk-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Norfolk Island"
+  },
+  "preferred": false,
+  "displayName": "Norfolk Island"
+}, {
+  "countryCode": "NO",
+  "countryName": "Norwegen",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Norway"
+  },
+  "preferred": true,
+  "displayName": "Norway"
+}, {
+  "countryCode": "OM",
+  "countryName": "Oman",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Oman"
+  },
+  "preferred": true,
+  "displayName": "Oman"
+}, {
+  "countryCode": "PK",
+  "countryName": "Pakistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Pakistan"
+  },
+  "preferred": true,
+  "displayName": "Pakistan"
+}, {
+  "countryCode": "PS",
+  "countryName": "Palästina",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Palestine"
+  },
+  "preferred": false,
+  "displayName": "Palestine"
+}, {
+  "countryCode": "PW",
+  "countryName": "Palau",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Palau"
+  },
+  "preferred": false,
+  "displayName": "Palau"
+}, {
+  "countryCode": "PA",
+  "countryName": "Panama",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Panama"
+  },
+  "preferred": false,
+  "displayName": "Panama"
+}, {
+  "countryCode": "PG",
+  "countryName": "Papua Neuguinea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Papua New Guinea"
+  },
+  "preferred": false,
+  "displayName": "Papua New Guinea"
+}, {
+  "countryCode": "PY",
+  "countryName": "Paraguay",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Paraguay"
+  },
+  "preferred": false,
+  "displayName": "Paraguay"
+}, {
+  "countryCode": "PE",
+  "countryName": "Peru",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Peru"
+  },
+  "preferred": false,
+  "displayName": "Peru"
+}, {
+  "countryCode": "PH",
+  "countryName": "Philippinen",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Philippines"
+  },
+  "preferred": false,
+  "displayName": "Philippines"
+}, {
+  "countryCode": "PN",
+  "countryName": "Pitcairn",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Pitcairn"
+  },
+  "preferred": false,
+  "displayName": "Pitcairn"
+}, {
+  "countryCode": "PL",
+  "countryName": "Polen",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Poland"
+  },
+  "preferred": true,
+  "displayName": "Poland"
+}, {
+  "countryCode": "PT",
+  "countryName": "Portugal",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Portugal"
+  },
+  "preferred": true,
+  "displayName": "Portugal"
+}, {
+  "countryCode": "PR",
+  "countryName": "Puerto Rico",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Puerto Rico"
+  },
+  "preferred": false,
+  "displayName": "Puerto Rico"
+}, {
+  "countryCode": "QA",
+  "countryName": "Qatar",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Qatar"
+  },
+  "preferred": true,
+  "displayName": "Qatar"
+}, {
+  "countryCode": "RE",
+  "countryName": "Reunion",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Reunion"
+  },
+  "preferred": false,
+  "displayName": "Reunion"
+}, {
+  "countryCode": "RW",
+  "countryName": "Ruanda",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Rwanda"
+  },
+  "preferred": false,
+  "displayName": "Rwanda"
+}, {
+  "countryCode": "RO",
+  "countryName": "Rumänien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Romania"
+  },
+  "preferred": true,
+  "displayName": "Romania"
+}, {
+  "countryCode": "RU",
+  "countryName": "Russland",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Russian Federation"
+  },
+  "preferred": true,
+  "displayName": "Russian Federation"
+}, {
+  "countryCode": "LC",
+  "countryName": "Saint Lucia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Saint Lucia"
+  },
+  "preferred": false,
+  "displayName": "Saint Lucia"
+}, {
+  "countryCode": "ZM",
+  "countryName": "Sambia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Zambia"
+  },
+  "preferred": false,
+  "displayName": "Zambia"
+}, {
+  "countryCode": "AS",
+  "countryName": "Samoa",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "American Samoa"
+  },
+  "preferred": false,
+  "displayName": "American Samoa"
+}, {
+  "countryCode": "WS",
+  "countryName": "Samoa",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Samoa"
+  },
+  "preferred": false,
+  "displayName": "Samoa"
+}, {
+  "countryCode": "SM",
+  "countryName": "San Marino",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "San Marino"
+  },
+  "preferred": false,
+  "displayName": "San Marino"
+}, {
+  "countryCode": "ST",
+  "countryName": "Sao Tome",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Sao Tome and Principe"
+  },
+  "preferred": false,
+  "displayName": "Sao Tome and Principe"
+}, {
+  "countryCode": "SA",
+  "countryName": "Saudi-Arabien",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Saudi Arabia"
+  },
+  "preferred": true,
+  "displayName": "Saudi Arabia"
+}, {
+  "countryCode": "SE",
+  "countryName": "Schweden",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Sweden"
+  },
+  "preferred": true,
+  "displayName": "Sweden"
+}, {
+  "countryCode": "SN",
+  "countryName": "Senegal",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Senegal"
+  },
+  "preferred": false,
+  "displayName": "Senegal"
+}, {
+  "countryCode": "RS",
+  "countryName": "Serbien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Serbia"
+  },
+  "preferred": false,
+  "displayName": "Serbia"
+}, {
+  "countryCode": "SC",
+  "countryName": "Seychellen",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Seychelles"
+  },
+  "preferred": false,
+  "displayName": "Seychelles"
+}, {
+  "countryCode": "SL",
+  "countryName": "Sierra Leone",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Sierra Leone"
+  },
+  "preferred": false,
+  "displayName": "Sierra Leone"
+}, {
+  "countryCode": "SG",
+  "countryName": "Singapur",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Singapore"
+  },
+  "preferred": true,
+  "displayName": "Singapore"
+}, {
+  "countryCode": "SK",
+  "countryName": "Slowakei (Slowakische Republik)",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Slovak Republic"
+  },
+  "preferred": true,
+  "displayName": "Slovak Republic"
+}, {
+  "countryCode": "SI",
+  "countryName": "Slowenien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Slovenia"
+  },
+  "preferred": true,
+  "displayName": "Slovenia"
+}, {
+  "countryCode": "Sb",
+  "countryName": "Solomon Islands",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Solomon Islands"
+  },
+  "preferred": false,
+  "displayName": "Solomon Islands"
+}, {
+  "countryCode": "SO",
+  "countryName": "Somalia",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Somalia"
+  },
+  "preferred": false,
+  "displayName": "Somalia"
+}, {
+  "countryCode": "GS",
+  "countryName": "South Georgia und South Sandwich Islands",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "S. Georgia and S. Sandwich Isls."
+  },
+  "preferred": false,
+  "displayName": "S. Georgia and S. Sandwich Isls."
+}, {
+  "countryCode": "ES",
+  "countryName": "Spanien",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Spain"
+  },
+  "preferred": true,
+  "displayName": "Spain"
+}, {
+  "countryCode": "LK",
+  "countryName": "Sri Lanka",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Sri Lanka"
+  },
+  "preferred": false,
+  "displayName": "Sri Lanka"
+}, {
+  "countryCode": "SH",
+  "countryName": "St. Helena",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "St. Helena"
+  },
+  "preferred": false,
+  "displayName": "St. Helena"
+}, {
+  "countryCode": "KN",
+  "countryName": "St. Kitts Nevis Anguilla",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Saint Kitts and Nevis"
+  },
+  "preferred": false,
+  "displayName": "Saint Kitts and Nevis"
+}, {
+  "countryCode": "PM",
+  "countryName": "St. Pierre und Miquelon",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "St. Pierre and Miquelon"
+  },
+  "preferred": false,
+  "displayName": "St. Pierre and Miquelon"
+}, {
+  "countryCode": "VC",
+  "countryName": "St. Vincent",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Saint Vincent and the Grenadines"
+  },
+  "preferred": false,
+  "displayName": "Saint Vincent and the Grenadines"
+}, {
+  "countryCode": "ZA",
+  "countryName": "Südafrika",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "South Africa"
+  },
+  "preferred": false,
+  "displayName": "South Africa"
+}, {
+  "countryCode": "SD",
+  "countryName": "Sudan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Sudan"
+  },
+  "preferred": false,
+  "displayName": "Sudan"
+}, {
+  "countryCode": "KR",
+  "countryName": "Südkorea",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Korea (South)"
+  },
+  "preferred": true,
+  "displayName": "Korea (South)"
+}, {
+  "countryCode": "SR",
+  "countryName": "Surinam",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Suriname"
+  },
+  "preferred": false,
+  "displayName": "Suriname"
+}, {
+  "countryCode": "SJ",
+  "countryName": "Svalbard und Jan Mayen Islands",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Svalbard and Jan Mayen Islands"
+  },
+  "preferred": false,
+  "displayName": "Svalbard and Jan Mayen Islands"
+}, {
+  "countryCode": "SZ",
+  "countryName": "Swasiland",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Swaziland"
+  },
+  "preferred": false,
+  "displayName": "Swaziland"
+}, {
+  "countryCode": "SY",
+  "countryName": "Syrien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Syria"
+  },
+  "preferred": false,
+  "displayName": "Syria"
+}, {
+  "countryCode": "TJ",
+  "countryName": "Tadschikistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tajikistan"
+  },
+  "preferred": false,
+  "displayName": "Tajikistan"
+}, {
+  "countryCode": "TW",
+  "countryName": "Taiwan",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Taiwan"
+  },
+  "preferred": true,
+  "displayName": "Taiwan"
+}, {
+  "countryCode": "TZ",
+  "countryName": "Tansania",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tanzania"
+  },
+  "preferred": false,
+  "displayName": "Tanzania"
+}, {
+  "countryCode": "TH",
+  "countryName": "Thailand",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Thailand"
+  },
+  "preferred": false,
+  "displayName": "Thailand"
+}, {
+  "countryCode": "TG",
+  "countryName": "Togo",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Togo"
+  },
+  "preferred": false,
+  "displayName": "Togo"
+}, {
+  "countryCode": "TK",
+  "countryName": "Tokelau",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tokelau"
+  },
+  "preferred": false,
+  "displayName": "Tokelau"
+}, {
+  "countryCode": "TO",
+  "countryName": "Tonga",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tonga"
+  },
+  "preferred": false,
+  "displayName": "Tonga"
+}, {
+  "countryCode": "TT",
+  "countryName": "Trinidad Tobago",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Trinidad and Tobago"
+  },
+  "preferred": false,
+  "displayName": "Trinidad and Tobago"
+}, {
+  "countryCode": "TD",
+  "countryName": "Tschad",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Chad"
+  },
+  "preferred": false,
+  "displayName": "Chad"
+}, {
+  "countryCode": "CZ",
+  "countryName": "Tschechische Republik",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Czech Republic"
+  },
+  "preferred": true,
+  "displayName": "Czech Republic"
+}, {
+  "countryCode": "TN",
+  "countryName": "Tunesien",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tunisia"
+  },
+  "preferred": false,
+  "displayName": "Tunisia"
+}, {
+  "countryCode": "TR",
+  "countryName": "Türkei",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Turkey"
+  },
+  "preferred": true,
+  "displayName": "Turkey"
+}, {
+  "countryCode": "TM",
+  "countryName": "Turkmenistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Turkmenistan"
+  },
+  "preferred": false,
+  "displayName": "Turkmenistan"
+}, {
+  "countryCode": "TC",
+  "countryName": "Turks- und Kaikos-Inseln",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Turks and Caicos Islands"
+  },
+  "preferred": false,
+  "displayName": "Turks and Caicos Islands"
+}, {
+  "countryCode": "TV",
+  "countryName": "Tuvalu",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Tuvalu"
+  },
+  "preferred": false,
+  "displayName": "Tuvalu"
+}, {
+  "countryCode": "UG",
+  "countryName": "Uganda",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Uganda"
+  },
+  "preferred": false,
+  "displayName": "Uganda"
+}, {
+  "countryCode": "UA",
+  "countryName": "Ukraine",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Ukraine"
+  },
+  "preferred": false,
+  "displayName": "Ukraine"
+}, {
+  "countryCode": "HU",
+  "countryName": "Ungarn",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Hungary"
+  },
+  "preferred": true,
+  "displayName": "Hungary"
+}, {
+  "countryCode": "UY",
+  "countryName": "Uruguay",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Uruguay"
+  },
+  "preferred": false,
+  "displayName": "Uruguay"
+}, {
+  "countryCode": "UZ",
+  "countryName": "Usbekistan",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Uzbekistan"
+  },
+  "preferred": false,
+  "displayName": "Uzbekistan"
+}, {
+  "countryCode": "VU",
+  "countryName": "Vanuatu",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Vanuatu"
+  },
+  "preferred": false,
+  "displayName": "Vanuatu"
+}, {
+  "countryCode": "VA",
+  "countryName": "Vatikan",
+  "market": "NHW_2",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Vatican City State (Holy See)"
+  },
+  "preferred": false,
+  "displayName": "Vatican City State (Holy See)"
+}, {
+  "countryCode": "VE",
+  "countryName": "Venezuela",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Venezuela"
+  },
+  "preferred": false,
+  "displayName": "Venezuela"
+}, {
+  "countryCode": "AE",
+  "countryName": "Vereinigte Arabische Emirate",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "United Arab Emirates"
+  },
+  "preferred": true,
+  "displayName": "United Arab Emirates"
+}, {
+  "countryCode": "US",
+  "countryName": "Vereinigte Staaten von Amerika",
+  "market": "NHW",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "United States"
+  },
+  "preferred": true,
+  "displayName": "United States"
+}, {
+  "countryCode": "VN",
+  "countryName": "Vietnam",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Viet Nam"
+  },
+  "preferred": false,
+  "displayName": "Viet Nam"
+}, {
+  "countryCode": "VG",
+  "countryName": "Virgin Island (Brit.)",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Virgin Islands (British)"
+  },
+  "preferred": false,
+  "displayName": "Virgin Islands (British)"
+}, {
+  "countryCode": "VI",
+  "countryName": "Virgin Island (USA)",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Virgin Islands (U.S.)"
+  },
+  "preferred": false,
+  "displayName": "Virgin Islands (U.S.)"
+}, {
+  "countryCode": "WF",
+  "countryName": "Wallis et Futuna",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Wallis and Futuna Islands"
+  },
+  "preferred": false,
+  "displayName": "Wallis and Futuna Islands"
+}, {
+  "countryCode": "BY",
+  "countryName": "Weißrussland",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Belarus"
+  },
+  "preferred": false,
+  "displayName": "Belarus"
+}, {
+  "countryCode": "EH",
+  "countryName": "Westsahara",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Western Sahara"
+  },
+  "preferred": false,
+  "displayName": "Western Sahara"
+}, {
+  "countryCode": "CF",
+  "countryName": "Zentralafrikanische Republik",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Central African Republic"
+  },
+  "preferred": false,
+  "displayName": "Central African Republic"
+}, {
+  "countryCode": "ZW",
+  "countryName": "Zimbabwe",
+  "market": "NHW_2",
+  "currency": "USD",
+  "currencySign": "US$",
+  "languages": {
+    "en": "Zimbabwe"
+  },
+  "preferred": false,
+  "displayName": "Zimbabwe"
+}, {
+  "countryCode": "CY",
+  "countryName": "Zypern",
+  "market": "NHW",
+  "currency": "EUR",
+  "currencySign": "€",
+  "languages": {
+    "en": "Cyprus"
+  },
+  "preferred": true,
+  "displayName": "Cyprus"
+}]

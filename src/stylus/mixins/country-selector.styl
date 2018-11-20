@@ -1,0 +1,141 @@
+@require '../_vars'
+
+$white = #fff
+$navBorderColor = #d5d5d5
+$navBorderColorLight = #f5f5f5
+$navColor = #414141
+$navColorPrimary = #f18713
+$toggleArrowColor = #6F6F6F
+
+$flag-size = 24px
+
+desktop-only()
+  @media only screen and (max-width: $bp-sm - 1)
+    display: none !important
+
+small-screen-mixin()
+  @media only screen and (max-width: $bp-sm - 1)
+    margin-left: auto
+    margin-right: 15px
+    &__toggle
+      padding ((45px - $flag-size) / 2 )
+    &__dropdown
+      position: absolute
+      top: 60px
+      left 0
+      right 0
+      border-bottom: 1px solid $navBorderColor
+    &__item
+      flex-basis 100%
+      font-size: 2rem
+      padding: 12px 15px
+      border-bottom: 1px solid $navBorderColor
+      img
+        height $flag-size
+        width auto
+        margin-right: 6px
+    &__select-box
+      p
+        margin-bottom: 10px
+      select
+        width: 100%
+
+big-screen-mixin()
+  @media only screen and (min-width: $bp-sm)
+    position absolute
+    top 0
+    right 0
+    font-size: 1.5rem
+    &__toggle
+      border 1px solid $navBorderColor
+      border-top: none
+      padding 2px 6px
+      border-radius 0 0 4px 4px
+      min-width: 140px
+      &--on
+        border-radius 0
+        svg        
+          transform rotate(180deg)
+      p
+        color: $navColorPrimary
+        padding: 0 10px
+      svg
+        fill: $toggleArrowColor
+        width: 12px
+    &__dropdown
+      position absolute
+      z-index 1
+      top 28px
+      right 0
+      width 535px
+      border-radius: 4px 0 4px 4px
+      border: 1px solid $navBorderColor
+    &__item
+      flex-basis 33%
+      padding: 3px 10px
+      white-space: nowrap
+      overflow: hidden
+      max-height 30px
+      img
+        height: 24px
+        width auto
+        margin-right: 6px
+       p
+        text-overflow ellipsis
+        overflow: hidden
+    &__select-box
+      border-top: 1px solid $navBorderColor
+      select
+        width: 45%
+  @media only screen and (min-width: $bp-md) and (max-width: $bp-lg)
+    right 20px
+
+countries-mixin()
+  small-screen-mixin()
+  big-screen-mixin()
+  color: $navColor
+  &__toggle
+    background: $white
+    cursor: pointer
+    img
+      image-rendering pixelated
+      height $flag-size
+      width auto
+    p, svg
+      desktop-only()
+  &__dropdown
+    background: $white
+    opacity: 0
+    max-height: 0
+    overflow: hidden
+    transition: max-height 420ms ease-out
+    &--on
+      opacity: 1
+      max-height 400vh
+      overflow: auto
+      transition max-height 420ms ease-in-out
+  &__item
+    color: $navColor
+    flex-wrap: nowrap !important
+    cursor: pointer
+    &:hover
+      color: $navColorPrimary
+  &__select-box
+    font-size: 1.6rem
+    padding 10px
+    select
+      -webkit-appearance: menulist
+      font-family: inherit
+      outline: none
+      box-shadow: none
+      cursor: pointer
+      height: 30px
+      color: $navColor
+      background: $navBorderColorLight
+      border: 1px solid $navBorderColor
+      border-radius: 8px
+      font-size 1.4rem
+      padding: 0 10px
+
+.fk-countries
+  countries-mixin()
