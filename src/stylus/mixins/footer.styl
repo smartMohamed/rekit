@@ -1,0 +1,78 @@
+@require '../_vars'
+
+$white = #fff
+$borderColor = #e7e7e7
+$navColorPrimary = #f18713
+$navColorSecondary = #2f82c4
+$navColorMobile = #646464
+
+// text general style
+txtDefault()
+  color: $navColorMobile
+  font-size: 2rem
+  display: block
+  @media (min-width: $bp-lg)
+    font-size: 2.1rem
+
+// links
+footerLinks()
+  txtDefault()
+  text-decoration: none
+  line-height 1.55
+  padding: 10px 15px 11px 15px
+  border-bottom: solid 1px $borderColor
+  &:hover
+    color: $navColorPrimary
+  @media (min-width: $bp-sm)
+    border: none
+    display: inline
+  @media (min-width: $bp-lg)
+    padding: 0
+    line-height: 1.47
+
+// social and app-badges titles
+titles()
+  txtDefault()
+  line-height: 1.4
+  text-align: center
+  margin-bottom: 10px
+  @media (min-width: $bp-lg)
+    text-align: left
+
+footer-mixin()
+  background: $white
+  border-top: solid 1px $borderColor
+  padding: 50px 0
+  position: relative
+  @media (max-width: $under-sm)
+    padding-top: 0px
+  @media (max-width: $under-lg)
+    // padding should contain enough space for social and app-badges comp
+    padding-bottom: 220px
+  &__nav
+    @media (min-width: $bp-sm) and (max-width: $under-lg)
+      display: flex
+      flex-direction: row
+      flex-wrap: nowrap
+      justify-content: center
+      margin-top: 4px
+      margin-bottom: 15px
+  &__link
+    footerLinks()
+  &__app-stores, &__social
+    h4
+      titles()
+    @media (max-width: $under-lg)
+      display: flex
+      position: absolute
+      bottom: 30px
+      right: 0
+      left: 0
+      justify-content: center
+  &__social
+      bottom: 120px
+  &__app-stores__buttons
+    display: flex
+
+.fk-footer
+  footer-mixin()
