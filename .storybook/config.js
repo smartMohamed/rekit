@@ -13,7 +13,7 @@ import '../demo/demo.styl'
 
 setOptions({
   name: `Rekit ${pkg.version}`,
-  url: 'https://github.com/smartmohamed/rekitkit',
+  url: 'https://github.com/smartmohamed/rekit',
 })
 
 
