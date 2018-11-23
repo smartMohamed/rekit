@@ -15,11 +15,10 @@ class Carousel extends React.Component {
 
   moveTo = (i) => {
     if (Math.max(0, Math.min(this.state.max, i)) === i) {
-      this.setState({selected: i})
+      this.setState({selected: i}, this.translate)
     } else if (this.props.loop) {
-      this.setState({selected: (this.state.max + 1) - Math.abs(i)})
+      this.setState({selected: (this.state.max + 1) - Math.abs(i)}, this.translate)
     }
-    this.translate()
   }
 
   swiping = (amount) => {
