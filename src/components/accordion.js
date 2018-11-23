@@ -26,6 +26,10 @@ class Accordion extends React.Component {
     })
   }
 
+  componentDidUpdate (prevProps) {
+    if (prevProps.open != this.props.open) this.setState({isOpen: this.props.open})
+  }
+
   renderContent () {
     if (!this.state.isOpen) return ''
     return (
