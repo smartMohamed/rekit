@@ -11,9 +11,14 @@ class DarkLayer extends React.Component {
     this.state = {show: props.show}
   }
 
+  onClick = () => {
+    this.setState({show: false})
+    this.props.onClick()
+  }
+
   render () {
     return (() => !this.state.show ? '' : (
-            <section class="fk-dark-layer" onClick={this.props.onClick}>
+            <section className="fk-dark-layer" onClick={this.onClick}>
             <Flex column align="center" justify="center" grow>
               {this.props.children}
             </Flex>
