@@ -25,7 +25,7 @@ class CookiePolicy extends React.Component {
     return (
       <Flex className="cookie-policy" justify="space-between">
         <p className="cookie-policy__content">{this.content[this.props.lang]} <a href={this.props.link}>{this.linkTitle[this.props.lang]}</a>.</p>
-        <div class="cookie-policy__close" onClick={this.props.onClose} ><Icon color="white" icon="close"  /></div>
+        <div className="cookie-policy__close" onClick={this.props.onClose} ><Icon color="white" icon="close"  /></div>
       </Flex>
     )
   }

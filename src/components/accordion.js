@@ -12,10 +12,10 @@ class Accordion extends React.Component {
   constructor(props) {
     super(props)
     this.state = {isOpen: props.open}
-    this.renderContent = this.renderContent.bind(this)
   }
  
   toggle = () => {
+    console.log(this.state.isOpen)
     this.setState({isOpen: !this.state.isOpen})
   }
 
@@ -30,7 +30,7 @@ class Accordion extends React.Component {
     if (prevProps.open != this.props.open) this.setState({isOpen: this.props.open})
   }
 
-  renderContent () {
+  renderContent = () => {
     if (!this.state.isOpen) return ''
     return (
       <div className="fk-accordion__content-frame">

@@ -1,0 +1,231 @@
+@require '../_vars'
+
+$white = #fff
+$borderColor = #e7e7e7
+$navColor = #414141
+$navColorPrimary = #f18713
+$navColorSecondary = #2f82c4
+$navColorMobile = #646464
+
+$container-width = {
+  sm: 750px
+  md: 970px
+  lg: 1170px
+}
+
+// first n links to be displayed in main navigation on bigger breakpoints
+// links with index > $visibleNavItems are visible in the mobile menu only
+$visibleNavItems = 4
+
+// helpers
+mobile-order(n)
+  @media only screen and (max-width: $under-sm)
+    order: n
+
+mobile-only()
+  @media only screen and (min-width: $bp-sm)
+    display: none !important
+
+desktop-only()
+  @media only screen and (max-width: $under-sm)
+    display: none !important
+
+medium-only()
+  @media only screen and (min-width: $bp-lg), (max-width: $under-sm)
+    display: none !important
+
+// container
+containerResponsive()
+  position relative
+  display: flex
+  flex: 1
+  flex-wrap: wrap
+  align-items: center
+  min-width 320px
+  @media only screen and (max-width: $under-sm)
+    justify-content space-between
+  @media only screen and (min-width: $bp-sm)
+    flex: none
+    width: $container-width.sm
+    height: 120px
+    margin: 0 auto
+    padding: 0
+  @media only screen and (min-width: $bp-md)
+    width: $container-width.md
+    padding: 0 20px
+  @media only screen and (min-width: $bp-lg)
+    width: $container-width.lg
+    padding: 0
+
+// logo
+logo()
+  width: 175px
+  height: 34px
+  img
+    min-width: 175px
+  @media only screen and (max-width: $under-sm)
+    margin: 12px 15px
+  @media only screen and (min-width: $bp-md)
+    width: 235px
+    height: 45px
+
+// toggle navigation icon
+toggle-nav-icon()
+  // wrapper element needed because cursor styles and events handlers don't work if applied to svgs directly
+  // https://stackoverflow.com/questions/26672936/cursor-pointer-on-svg-element-is-not-working
+  display: flex
+  cursor: pointer
+  margin-right: 15px
+  order: 2
+  svg
+    width: 24px
+    height: 20.5px
+  mobile-only()
+
+// nav links default
+nav-links-default()
+  a
+    display: block
+    color: $navColor
+    text-decoration: none
+    &:hover
+      color: $navColorPrimary
+
+// mobile toggle navigation
+mobile-nav()
+  mobile-order(4)
+  @media only screen and (max-width: $under-sm)
+    width: 100%
+    max-height: 0
+    overflow: hidden
+    transition: max-height 420ms ease-out
+    &--on
+      max-height 100vh
+      transition max-height 420ms ease-in-out
+    ul
+      border-top: 1px solid $borderColor
+    li
+      display: block
+      a
+        padding: 10px 15px 11px
+        font-size: 2rem
+        // color: $navColorMobile
+        line-height: 1.1
+        border-bottom: solid 1px $borderColor
+
+// desktop navigation
+desktop-nav()
+  @media only screen and (min-width: $bp-sm)
+    display: flex
+    justify-content: center
+    margin-left 20px
+    li
+      display: none
+      &:nth-child(-n + {$visibleNavItems})
+        display: inline-block
+  a
+    @media only screen and (min-width: $bp-sm)
+      font-size: 1.6 rem
+      padding: 0 10px
+    @media only screen and (min-width: $bp-md)
+      font-size: 1.8 rem
+      padding-left: 12px
+      padding-right: 8px
+
+// buttons styles overriding frogkit default
+top-btn()
+  padding: 0 !important
+  width: 60px
+
+cart-btn()
+  display: none !important
+  mobile-order(1)
+  padding: 0 !important
+  margin-right: 15px
+  width: 36px
+  position: relative
+  @media only screen and (min-width: 360px)
+    display: inline-block !important
+  @media only screen and (min-width: $bp-sm)
+    margin-right: 0
+  svg
+    width: 15px
+    height: 15px
+  &__counter
+    display: block
+    position: absolute
+    right: -9px
+    top: -13px
+    min-width: 18px
+    height: @min-width
+    border-radius: 9px
+    text-align: center
+    font-size: 1.4rem
+    line-height: 1.3
+    font-weight: 700
+    background: $navColorPrimary
+    color: $white
+
+// login form
+login-form()
+  display: none
+  margin-left: auto
+  margin-right: 10px
+  &__login
+    top-btn()
+    margin-left: 9px
+  &__field
+    padding-left: 10px
+    max-width: 160px
+    position relative
+    a
+      display: block
+      position: absolute
+      top: 41px
+      font-size: 1.4rem
+      color: $navColor
+      text-decoration: none
+      &:hover
+        color: $navColorSecondary
+  input
+    display: block
+    &[type="email"]
+      width: 150px
+    &[type="password"]
+      width: 120px
+
+  @media only screen and (min-width: $bp-lg)
+    display: flex
+
+header-mixin()
+  display: flex
+  background: $white
+  border-bottom: 1px solid $borderColor
+  z-index 100
+  &__container
+    containerResponsive()
+  &__logo
+    logo()
+  &__nav
+    nav-links-default()
+    mobile-nav()
+    desktop-nav()
+  &__toggle
+    toggle-nav-icon()
+  &__btn-login
+    top-btn()
+    medium-only()
+    margin-right: 9px
+  &__btn-shop
+    top-btn()
+    desktop-only()
+    width: 55px
+    margin-right: 2px
+  &__btn-cart
+    cart-btn()
+  &__form
+    login-form()
+
+
+.fk-header
+  header-mixin()
