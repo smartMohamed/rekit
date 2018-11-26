@@ -98,7 +98,7 @@ class AppHeader extends React.Component {
                   <div className={this.langClass} onClick={this.toggleDropdown}>
                     { this.props.activeLang }
                     <Icon icon="angle-down" />
-                    <ul v-click-outside="closeDropDown">
+                    <ul>
                       {this.renderLanguages()}
                     </ul>
                   </div>

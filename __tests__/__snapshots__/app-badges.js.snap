@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Badge component Should render component and match snapshot 1`] = `"<a href=\\"https://app.adjust.com/p39urb\\" class=\\"fk-app-btn \\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Laden im</a>"`;
