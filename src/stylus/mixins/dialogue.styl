@@ -1,0 +1,68 @@
+@require '../_vars'
+
+$overlay-light-bg ?= rgba(255, 255, 255, 0.5)
+$overlay-dark-bg ?= rgba(0, 0, 0, 0.5)
+$overlay-animation-time ?= 300ms
+
+dialogue-mixin()
+  position fixed
+  top 0
+  right 0
+  left 0
+  bottom 0
+  z-index 9999
+  background-color $overlay-light-bg
+
+  &&--dark
+    background-color $overlay-dark-bg
+
+  & &__frame
+    display block
+    position relative
+    padding 30px 75px 24px 75px
+    background white
+    box-shadow 0 2px 6px 0 rgba(0, 0, 0, 0.2)
+    max-width 100%
+    max-height 100%
+    overflow auto
+
+  & &__close
+    position absolute
+    right 30px
+    top 30px
+    cursor pointer
+
+    >svg
+      width 24px
+      height 24px
+
+/* *** ANIMATIONS *** */
+@keyframes fadein
+  0%
+    opacity 0
+
+  100%
+    opacity 1
+
+@keyframes slidedown
+  0%
+    transform translateY(-100px)
+
+  100%
+    transform translateY(0)
+
+.fk-dialogue
+  dialogue-mixin()
+
+.noscroll
+  overflow hidden
+
+.fade-appear-active
+  animation fadein $overlay-animation-time ease
+  .fk-dialogue__frame
+    animation slidedown $overlay-animation-time ease
+
+.fade-exit-active
+  animation fadein $overlay-animation-time reverse
+  .fk-dialogue__frame
+    animation slidedown $overlay-animation-time reverse
