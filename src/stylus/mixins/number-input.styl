@@ -1,0 +1,60 @@
+$button-skeleton
+  padding: 0
+  line-height: initial
+  // line-height unset is not supported for ios 10 and prior versions
+  line-height: unset
+  margin 0
+
+
+$input-skeleton
+  margin 0 5px
+  padding: 0
+  text-align: center
+  outline: none
+  vertical-align: middle
+  border: 1px solid #ccc
+  line-height: initial
+  // line-height unset is not supported for ios 10 and prior versions
+  line-height: unset
+  
+  // hide arrows
+  -moz-appearance: textfield
+  &::-webkit-inner-spin-button
+  &::-webkit-outer-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+small = {
+  height: 30px
+  width: 30px
+  font-size: 16px
+  border-radius: 4px
+}
+
+big = {
+  height: 60px
+  width: 60px
+  font-size: 30px
+  border-radius: 8px
+}
+
+number-input()
+  & &__button
+    &--small
+      @extends $button-skeleton
+      {small}
+    &--big
+      @extends $button-skeleton
+      {big}
+    
+  & &__input
+    &--small
+      @extends $input-skeleton
+      {small}
+    &--big
+      @extends $input-skeleton
+      {big}
+      
+
+.fk-number-input
+  number-input()

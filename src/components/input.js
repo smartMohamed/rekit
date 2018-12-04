@@ -22,6 +22,11 @@ class Input extends React.Component {
     }
   }
 
+  static getDerivedStateFromProps(props, state) {
+    if (state.value !== props.value) return {...state, value: props.value}
+    return state
+  }
+
   get errone() {
     return Object.values(this.errors || {}).some(Boolean)
   }
@@ -31,7 +36,7 @@ class Input extends React.Component {
   }
 
   get className() {
-    return classnames({
+    let className = classnames({
       'fk-input': true,
       'fk-input--small': this.props.size === 'small',
       'fk-input--cut-left': this.props.cutSide === 'left',
@@ -39,6 +44,8 @@ class Input extends React.Component {
       'fk-input--block': !!this.props.block,
       'fk-input--invalid': this.invalid
     })
+    if (this.props.className) className = `${this.props.className} ${className}` 
+    return className
   }
 
   handleChange = (event) => {

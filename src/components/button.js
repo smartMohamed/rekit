@@ -26,7 +26,7 @@ class Button extends React.Component {
   render () {
     const Tag = this.props.link ? 'a' : 'button'
     return (
-      <Tag className={this.className} rel="noopener noreferrer">
+      <Tag disabled={this.props.disabled} className={this.className} rel="noopener noreferrer" onClick={this.props.onClick}>
         {this.props.children}
       </Tag>
     )
@@ -41,7 +41,9 @@ Button.propType = {
   link: PropTypes.bool,
   cutSide: PropTypes.string,
   loading: PropTypes.bool,
-  capitalize: PropTypes.bool
+  capitalize: PropTypes.bool,
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func
 }
 
 Button.defaultProps = {
@@ -52,7 +54,9 @@ Button.defaultProps = {
   link: false,
   cutSide: '',
   loading: false,
-  capitalize: false
+  capitalize: false,
+  disabled: false,
+  onClick: () => {}
 }
 
 export default Button
