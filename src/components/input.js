@@ -19,7 +19,9 @@ class Input extends React.Component {
       pattern: false,
       required: false,
       lengthError: ''
-    }
+    },
+    this.validate = this.validate.bind(this)
+    this.getStatus = this.getStatus.bind(this)
   }
 
   static getDerivedStateFromProps(props, state) {
@@ -109,7 +111,7 @@ class Input extends React.Component {
 
   render() {
     return (
-      <input {...this.props} onChange={this.handleChange} className={this.className} value={this.state.value}/>
+      <input {...this.props} onChange={this.handleChange} className={this.className} value={this.state.value} ref={this.props.inputRef} />
     )
   }
 }

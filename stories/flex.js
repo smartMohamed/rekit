@@ -4,7 +4,7 @@ import { boolean, select } from '@storybook/addon-knobs'
 import Flex from "@/components/flex";
 
 
-const story = storiesOf("Flex", module)
+const story = storiesOf("Layout / Flexbox", module)
 
 story.add("Kitchen Sink", () => {
   const props = {

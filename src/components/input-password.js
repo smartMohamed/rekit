@@ -26,8 +26,7 @@ class InputPassword extends React.Component {
   }
 
   onInput = (value) => {
-    this.setState({value})
-    // this.props.onInput(value)
+    this.props.onInput(value)
   }
 
   show = () => {
@@ -36,9 +35,8 @@ class InputPassword extends React.Component {
   }
 
   computePosition = () => {
-    if (!this.refs.input ) return
-    const input = this.refs.input
-    console.log(input)
+    if (!this.inputElement ) return
+    const input = this.inputElement
     const {height, width} = input.getBoundingClientRect()
     const left = input.offsetLeft + width - 35
     const top = height / 2 + input.offsetTop - 22
@@ -63,7 +61,7 @@ class InputPassword extends React.Component {
   render () {
     return (
       <section className="fk-input-password" onMouseEnter={this.show} onMouseLeave={() => this.setState({passwordToggle: false})} >
-        <Input type={this.state.inputType} value={this.state.value} onChange={this.onInput} ref="input" block placeholder={this.props.placeholder} required={this.props.required} aria-label={this.props.placeholder} pid="input_password"/>
+        <Input type={this.state.inputType} value={this.state.value} onChange={this.onInput} inputRef={el => this.inputElement = el} block placeholder={this.props.placeholder} required={this.props.required} aria-label={this.props.placeholder} pid="input_password"/>
         {this.renderTooltip()}
       </section>
     )

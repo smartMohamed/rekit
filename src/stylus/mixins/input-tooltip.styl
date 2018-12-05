@@ -1,0 +1,89 @@
+@import '../_vars'
+$status-color = {
+  success: #0fbd6d
+  warning: #ffb830
+  danger: #e20d00
+}
+
+$condition-color = {
+  invalid: $status-color.danger,
+  valid: $status-color.success
+}
+
+input-tooltip-mixin()
+  &__bubble
+    position absolute
+    z-index 1
+    border 1px solid #ccc
+    color #414141
+    margin-left 10px
+    border-radius: 5px
+    box-shadow 0 0 5px rgba(0,0,0,.2)
+    background #fff
+    padding: 10px 15px
+    font-size: 1.6rem
+    &:after
+      arrow-mixin()
+    ul
+      line-height 22px
+      list-style-type circle
+      padding: 0 0 0 20px
+      margin: 10px 0
+  &__title
+    // font-size: 1.6rem
+    margin: 8px 0 14px 0
+    font-weight: 700
+    line-height 1.6rem
+  &--invalid
+    color: $condition-color.invalid
+  &--valid
+    color: $condition-color.valid
+  &__status
+    line-height 2.4rem
+    margin: 8px 0
+    color: white
+    border-radius: 4px 
+    font-weight: bold
+    font-size: 1.4rem
+    text-align: center
+    text-transform: capitalize
+    &--danger
+      background: $status-color.danger
+    &--warning
+      background: $status-color.warning
+    &--success
+      background: $status-color.success
+
+
+arrow-mixin()
+  @media(min-width $bp-sm)
+    content: ''
+    position: absolute
+    top: 50%
+    left: 0px
+    box-sizing: border-box
+    border: 7px solid 
+    border-color: transparent transparent #fff #fff
+    transform-origin: 0 0
+    transform: rotate(45deg)
+  
+    margin-top: -10px
+    box-shadow: -1px 1px #ccc
+  
+  @media(max-width $bp-sm - 1)
+    content: ''
+    position: absolute
+    bottom: -14px
+    left: 50% - 7px
+    box-sizing: border-box
+    border: 7px solid 
+    border-color: transparent transparent #fff #fff
+    transform-origin: 0 0
+    transform: rotate(315deg)
+  
+    margin-top: -10px
+    box-shadow: -1px 1px #ccc
+
+
+.fk-input-tooltip
+  input-tooltip-mixin()

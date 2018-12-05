@@ -17,5 +17,4 @@ stories.add('kitchen sink', () => {
   return (
     <InputNumber {...props} />
   )
-  
 })
